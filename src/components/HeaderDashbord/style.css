@@ -1,0 +1,41 @@
+.container__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 3% 10%;
+
+  border-bottom: solid 1px white;
+
+  box-shadow: 5px 3px 10px 5px white;
+}
+
+.container__header > button {
+  padding: 5px 10px;
+
+  font-size: var(--body);
+
+  border: solid 1px var(--grey_2);
+  border-radius: 8px;
+  background-color: var(--grey_2);
+}
+
+.container__header > button:hover {
+  border: solid 1px var(--color-primary);
+}
+
+.container__header > button:focus {
+  border: solid 1px #000;
+  background-color: #000;
+  color: #fff;
+}
+
+@media (min-width: 769px) {
+  .container__header > button {
+    height: 30px;
+    width: 60px;
+  }
+  .container__header {
+    padding: 2% 10%;
+  }
+}

@@ -1,0 +1,30 @@
+.section--one--deshbord > .balance {
+  flex-direction: column;
+  align-items: baseline;
+
+  gap: 10px;
+
+  height: 96px;
+}
+
+.section--one--deshbord > .balance > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+
+  width: 90%;
+}
+
+.section--one--deshbord > .balance > div > h3 {
+  font-weight: bold;
+}
+
+.section--one--deshbord > .balance > div > span {
+  color: var(--color-primary);
+
+  font-weight: bold;
+}
+
+.section--one--deshbord > .balance > p {
+  margin-left: 5%;
+}

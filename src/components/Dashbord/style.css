@@ -1,0 +1,84 @@
+.container__main--deshbord {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 30px;
+
+  margin-top: 80px;
+}
+
+.section--one--deshbord,
+.section--two--deshbord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 95%;
+}
+
+.section--one--deshbord {
+  height: auto;
+
+  gap: 20px;
+}
+
+.section--two--deshbord > div {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  width: 100%;
+}
+
+.section--two--deshbord > div button {
+  height: 48px;
+  width: 130px;
+
+  border-radius: 8px;
+}
+
+.section--two--deshbord > div button:hover {
+  background-color: #e9ecef;
+  border: solid 1px var(--color-primary);
+}
+
+.section--two--deshbord > div button:focus {
+  background-color: #000;
+  color: #fff;
+}
+
+.section--two--deshbord > div .button__all {
+  background-color: var(--color-primary);
+  border: solid 1px var(--color-primary);
+  color: #fff;
+
+  margin-left: 15%;
+}
+
+.section--two--deshbord > div .button__all:hover {
+  background-color: var(--color-primary_2);
+}
+
+.section--two--deshbord > div .button__all:focus {
+  background-color: #fff;
+  color: var(--color-primary);
+}
+
+@media (min-width: 769px) {
+  .container__main--deshbord {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
+    gap: 70px;
+  }
+  .section--one--deshbord {
+    width: 35%;
+  }
+  .section--two--deshbord {
+    width: 50%;
+  }
+}

@@ -1,0 +1,85 @@
+.section--one--deshbord > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  border: solid 1px rgba(255, 255, 255, 0.644);
+
+  border-radius: 8px;
+
+  height: 355px;
+}
+
+.section--one--deshbord > div > form {
+  display: flex;
+  flex-direction: column;
+
+  gap: 30px;
+
+  width: 90%;
+}
+
+.section--one--deshbord > div > form div {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.section--one--deshbord > div > form > div input,
+.section--one--deshbord > div > form > div select,
+.section--one--deshbord > div > form button {
+  font-size: var(--title3);
+
+  height: 48px;
+}
+
+.section--one--deshbord > div > form > div input,
+.section--one--deshbord > div > form > div select {
+  background-color: var(--grey_2);
+
+  border-radius: 8px;
+  border: none;
+}
+
+.section--one--deshbord > div > form > div input::placeholder {
+  padding: 3%;
+}
+
+.section--one--deshbord > div form .value {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.value input {
+  width: 128px;
+}
+
+.section--one--deshbord > div > form > div select {
+  width: 150px;
+
+  font-size: var(--body);
+}
+
+.section--one--deshbord > div > form button,
+.button__all {
+  background-color: var(--color-primary);
+  border: solid 1px var(--color-primary);
+  color: #fff;
+
+  border-radius: 8px;
+}
+
+.section--one--deshbord > div > form button:hover,
+.button__all:hover {
+  background-color: var(--color-primary_2);
+}
+
+.section--one--deshbord > div > form button:focus,
+.button__all:focus {
+  background-color: #fff;
+  color: var(--color-primary);
+}

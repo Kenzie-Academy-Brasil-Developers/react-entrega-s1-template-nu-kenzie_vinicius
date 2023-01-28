@@ -1,0 +1,8 @@
+.title__logo {
+  font-size: var(--title2);
+  font-weight: bold;
+}
+
+.title__logo > span {
+  color: var(--color-primary);
+}

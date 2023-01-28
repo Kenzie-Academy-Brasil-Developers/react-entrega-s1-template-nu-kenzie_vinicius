@@ -1,0 +1,68 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 30px;
+
+  margin-top: 30px;
+
+  background-color: #fff;
+  color: #000;
+
+  width: 90%;
+
+  padding: 5%;
+
+  border-radius: 8px;
+
+  position: relative;
+}
+
+.card:hover {
+  background-color: var(--grey_1);
+}
+
+.card > div {
+  display: flex;
+  flex-direction: column;
+
+  gap: 30px;
+}
+
+.card > div > h3 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.card > svg {
+  background-color: var(--grey_2);
+
+  padding: 3%;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.card > svg:hover {
+  background-color: var(--grey_4);
+  color: #fff;
+}
+
+.input {
+  border-left: solid 10px #03b898;
+}
+
+.output {
+  border-left: solid 10px var(--grey_3);
+}
+
+@media (min-width: 769px) {
+  .card > svg {
+    position: absolute;
+    right: 25px;
+
+    padding: 2%;
+  }
+}
